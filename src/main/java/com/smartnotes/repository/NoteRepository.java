@@ -3,6 +3,9 @@ package com.smartnotes.repository;
 import com.smartnotes.model.Note;
 import java.util.*;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class NoteRepository {
 	
 	private final Map<Long, Note> notes = new HashMap<>();
