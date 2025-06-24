@@ -35,14 +35,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Spring AI with OpenAI connector -->
-     <dependency> 
-     	<groupId>org.springframework.ai</groupId> 
-     	<artifactId>spring-ai-openai-spring-boot-starter</artifactId> 
-     	<version>0.8.0</version> 
-     </dependency>
-        
-        
+        <!-- Spring AI with hugging face connector -->
+     	<dependency>
+    		<groupId>org.springframework.ai</groupId>
+    		<artifactId>spring-ai-huggingface</artifactId>
+    		<version>1.0.0</version>
+		</dependency>
+		        
     </dependencies>
     
     <repositories>
