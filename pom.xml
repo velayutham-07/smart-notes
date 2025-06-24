@@ -49,21 +49,21 @@
 
         <!-- Spring AI with OpenAI connector -->
      	<dependency>
-   			<groupId>org.springframework.ai</groupId>
+   		<groupId>org.springframework.ai</groupId>
     		<artifactId>spring-ai-openai</artifactId>
-		</dependency>
+	</dependency>
 
 
 		        
     </dependencies>
     
     <repositories>
-  		<repository>
+  	<repository>
     		<id>spring-milestones</id>
     		<name>Spring Milestone Repository</name>
     		<url>https://repo.spring.io/milestone</url>
-  		</repository>
-	</repositories>
+  	</repository>
+    </repositories>
 
 
     <build>
