@@ -5,6 +5,9 @@ import com.smartnotes.repository.NoteRepository;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class NoteService {
 	
 	private final NoteRepository noteRepository;
